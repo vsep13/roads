@@ -1,0 +1,61 @@
+{
+  "header": {
+    "platform": "minilogue-xd",
+    "module": "osc",
+    "api": "1.1.0",
+    "dev_id": 0,
+    "prg_id": 0,
+    "version": "1.0.0",
+    "name": "Roads"
+  },
+  "params": [
+    {
+      "name": "EffDepth",
+      "min": 0,
+      "max": 100,
+      "center": 50,
+      "default": 100,
+      "type": "percent"
+    },
+    {
+      "name": "SubType",
+      "min": 0,
+      "max": 3,
+      "center": 0,
+      "default": 0,
+      "type": "regular"
+    },
+    {
+      "name": "Detune",
+      "min": 0,
+      "max": 100,
+      "center": 50,
+      "default": 50,
+      "type": "percent"
+    },
+    {
+      "name": "MorphMode",
+      "min": 0,
+      "max": 1,
+      "center": 0,
+      "default": 0,
+      "type": "regular"
+    },
+    {
+      "name": "KeySync",
+      "min": 0,
+      "max": 1,
+      "center": 0,
+      "default": 0,
+      "type": "regular"
+    },
+    {
+      "name": "BitDepth",
+      "min": 0,
+      "max": 100,
+      "center": 0,
+      "default": 0,
+      "type": "percent"
+    }
+  ]
+}
